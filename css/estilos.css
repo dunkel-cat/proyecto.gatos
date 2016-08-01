@@ -22,7 +22,7 @@ header {
 	height: 200px;
 	background-color:#f307bb;
 }
-.row5 .three{
+.row5 .three, .row5 .six{
 	height: 200px;
 	background-color: #8000FF;
 }
