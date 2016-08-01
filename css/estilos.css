@@ -1,27 +1,29 @@
-/*imagen de fondo*/
-body{
-	
-	background-image: url(https://67.media.tumblr.com/ae8786e15c0ef723f40c9ce5d69552f2/tumblr_o9sqa0j7Rq1uk58d3o3_1280.jpg);
+header {
+	height: 78px;
+	background-color: #8000FF;
 }
-/*selectores nos permiten indicar a quién le haremos los cambios*/
-/* "*"este es un selector universal */
-h1 {
-	color:#4C0B5F;
-}
-p{
+.img-logo{
+	height: 213px;
+	background-color:#f307bb;
 
-font-size: 20px;
-color:#4C0B5F;
 }
-/*selectores descendentes*/
-p a {
-	font-size: 20px;
-	color: blue;
-}
-/*clases*/
-.page-wrapper { 
-	background: #FFE5FD; 
-    padding: 0 50px 0 50px;  
-	margin: 0; 
+.logo{
+	width: 700px;
+	height: 213px;
 	position: relative;
+	left: 265px;
+	bottom: 0;
 }
+.row3 .six, .row3 .three {
+	height: 200px;
+	background-color: #8000FF;
+}
+.row4 .three, .row4 .six{
+	height: 200px;
+	background-color:#f307bb;
+}
+.row5 .three{
+	height: 200px;
+	background-color: #8000FF;
+}
+
